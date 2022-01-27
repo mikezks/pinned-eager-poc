@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/ng13-mod-fed-dependon-demo'),
+      dir: require('path').join(__dirname, '../../coverage/shell'),
       subdir: '.',
       reporters: [
         { type: 'html' },
